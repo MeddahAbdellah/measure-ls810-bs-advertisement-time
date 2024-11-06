@@ -1,0 +1,9 @@
+[package]
+name = "measure-ls810-bs-advertisement-time"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+btleplug = "0.9"         # BLE library
+tokio = { version = "1", features = ["full"] }  # Async runtime
+uuid = { version = "1", features = ["serde", "v4"] }
